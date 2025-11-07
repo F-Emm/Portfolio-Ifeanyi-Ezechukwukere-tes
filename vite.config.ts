@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // 👇 I've added this line for GitHub Pages - base - repo name
-      base: '/Portfolio-Ifeanyi-Ezechukwukere-tes/',
+      base: '/Portfolio-Ifeanyi-Ezechukwukere/',
       server: {
         port: 3000,
         host: '0.0.0.0',
